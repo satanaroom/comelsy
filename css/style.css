@@ -1,6 +1,7 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  outline: none;
 }
 
 body {
@@ -8,6 +9,33 @@ body {
   background-color: #ffffff;
   overflow-x: hidden;
   margin: 0;
+}
+
+.container {
+  max-width: 1066px;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .header-wrapper {
+    max-width: 950px;
+  }
+  .header-menu {
+    max-width: 780px;
+  }
+  .header-menu__link {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  .header-wrapper {
+    max-width: 800px;
+  }
 }
 
 .header-text {
@@ -79,7 +107,6 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 20px;
   text-align: center;
 }
 
@@ -104,6 +131,5 @@ body {
 
 .header__image {
   display: none;
-  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
