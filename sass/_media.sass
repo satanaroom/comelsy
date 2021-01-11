@@ -5,7 +5,7 @@
         &-wrapper
             width: 95%
         &-menu
-            width: 800px
+            width: 830px
 @media (max-width: 1090px)
     .container
         width: 93%
@@ -18,11 +18,40 @@
                 font-size: 14px
                 &-get
                     font-size: 14px
+                    width: 80px
+                    min-height: 50px
 
-// @media (max-width: 992px)
-//     .header
-    
-// @media (max-width: 768px)
+@media (max-width: 992px)
+    .container
+        width: 98%
+    .header
+        &-wrapper
+            justify-content: space-evenly
+            width: 98%
+        &-text
+            font-size: 13px
+        &-menu
+            max-width: 650px
+            &__link
+                font-size: 13px
+                &-get
+                    font-size: 13px
+                    width: 75px
+                    min-height: 40px
+@media (max-width: 850px)
+    .header
+        &-menu
+            width: 600px
+            &__link
+                font-size: 12px
+                &-get
+                    font-size: 12px
+                    width: 72px
+                    min-height: 35px
+@media (max-width: 768px)
+    .header
+        &-menu
+            display: none
 // @media (max-width: 750px)
 // @media (max-width: 700px)
 // @media (max-width: 576px)
