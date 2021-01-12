@@ -120,6 +120,68 @@ img {
   text-align: center;
 }
 
+.main-wrapper {
+  height: 631px;
+  margin-bottom: 120px;
+  position: relative;
+}
+
+.main-wrapper:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgba(115, 115, 115, 0.7)), to(rgba(115, 115, 115, 0.7)));
+  background: linear-gradient(180deg, rgba(115, 115, 115, 0.7) 100%, rgba(115, 115, 115, 0.7) 100%);
+  z-index: 10;
+}
+
+.main__img {
+  height: 100%;
+  overflow: hidden;
+}
+
+.main__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 1100px;
+  height: 250px;
+  position: absolute;
+  top: 180px;
+  left: 25px;
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 50px;
+  display: flex;
+  z-index: 99;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: justify;
+  letter-spacing: 0.03em;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgba(255, 184, 0, 0.5)), to(rgba(255, 184, 0, 0.5)));
+  background: linear-gradient(180deg, rgba(255, 184, 0, 0.5) 100%, rgba(255, 184, 0, 0.5) 100%);
+  border-radius: 5px;
+}
+
+.main__space {
+  height: 0;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
