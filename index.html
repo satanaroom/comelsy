@@ -1,66 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Comelsy</title>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="/favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="css/style.css" />
-    </head>
-    <body>
-        <header class="header header--mobile_fixed">
-            <div class="container">
-                <div class="header-wrapper">
-                    <img src="img/logo.svg" alt="Logo: comelsy" class="logo__image" />
-                    <div class="header-right">
-                        <div class="header-right__top">
-                            <span class="header-text">Инжиниринговая компания КОМЭЛСИ</span>
-                        </div>
-                        <div class="header-right__bottom">
-                            <ul class="header-menu">
-                                <li class="header-menu__item">
-                                    <a href="#" class="header-menu__link">Предлагаем</a>
-                                </li>
-                                <li class="header-menu__item">
-                                    <a href="#" class="header-menu__link">История компании</a>
-                                </li>
-                                <li class="header-menu__item">
-                                    <a href="#" class="header-menu__link">Выполненные работы</a>
-                                </li>
-                                <li class="header-menu__item">
-                                    <a href="#" class="header-menu__link">Фотогалерея</a>
-                                </li>
-                                <li class="header-menu__item">
-                                    <a href="#" class="header-menu__link">Партнеры</a>
-                                </li>
-                                <li class="header-menu__item">
-                                    <a href="#" class="header-menu__link-get">Контакты</a>
-                                </li>
-                            </ul>
-                            <img src="img/mobile-menu.svg" alt="Logo: mobile menu" class="header__image" />
-                        </div>
-                        <button class="menu-button header-menu__button">
-                            <span class="menu-button__line"></span>
-                            <span class="menu-button__line"></span>
-                            <span class="menu-button__line"></span>
-                        </button>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comelsy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header class="header header--mobile_fixed">
+        <div class="container">
+            <div class="header-wrapper">
+                <img src="img/logo.svg" alt="Logo: comelsy" class="logo__image" />
+                <div class="header-right">
+                    <div class="header-right__top">
+                        <span class="header-text">Инжиниринговая компания КОМЭЛСИ</span>
                     </div>
+                    <div class="header-right__bottom">
+                        <ul class="header-menu">
+                            <li class="header-menu__item">
+                                <a href="#" class="header-menu__link">Предлагаем</a>
+                            </li>
+                            <li class="header-menu__item">
+                                <a href="#" class="header-menu__link">История компании</a>
+                            </li>
+                            <li class="header-menu__item">
+                                <a href="#" class="header-menu__link">Выполненные работы</a>
+                            </li>
+                            <li class="header-menu__item">
+                                <a href="#" class="header-menu__link">Фотогалерея</a>
+                            </li>
+                            <li class="header-menu__item">
+                                <a href="#" class="header-menu__link">Партнеры</a>
+                            </li>
+                            <li class="header-menu__item">
+                                <a href="#" class="header-menu__link-get">Контакты</a>
+                            </li>
+                        </ul>
+                        <img src="img/mobile-menu.svg" alt="Logo: mobile menu" class="header__image" />
+                    </div>
+                    <button class="menu-button header-menu__button">
+                        <span class="menu-button__line"></span>
+                        <span class="menu-button__line"></span>
+                        <span class="menu-button__line"></span>
+                    </button>
                 </div>
-                <!-- /.header-wrapper -->
             </div>
-            <!-- /.container -->
-        </header>
-        <section class="main">
-            <div class="container">
-                <div class="main-wrapper">
-                    <img src="img/main-image.jpg" alt="Image: main image" class="main__img">
-                    <h1 class="main__title">
-                        Проектирование, монтаж и ввод в эксплуатацию оборудования технологических цехов пищевой <span class="main__space">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</span> промышленности
-                    </h1>
+            <!-- /.header-wrapper -->
+        </div>
+        <!-- /.container -->
+    </header>
+    <section class="main">
+        <div class="container">
+            <div class="main-wrapper">
+                <img src="img/main-image.jpg" alt="Image: main image" class="main__img">
+                <h1 class="main__title">
+                    Проектирование, монтаж и ввод в эксплуатацию оборудования технологических цехов пищевой <span
+                        class="main__space">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</span> промышленности
+                </h1>
+            </div>
+        </div>
+    </section>
+    <section class="offer">
+        <div class="container">
+            <div class="offer-wrapper">
+                <h2 class="offer__title">Предлагаем</h2>
+                <div class="slider">
+                    <!-- Slider main container -->
+                    <div class="swiper-container">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <h3 class="offer__matter">Проектирование технологических цехов</h3>
+                                <div class="offer__background">
+                                    <div class="offer__text">
+                                        После согласования с заказчиком подготавливаем принципиальную 
+                                        схему технологических процессов, технологическую планировку 
+                                        цеха с указанием мест размещения основного технологического оборудования, 
+                                        описание автоматизированной системы, используемой в производственном процессе 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <h3 class="offer__matter">Поставка технологического оборудования</h3>
+                                <div class="offer__background">
+                                    <div class="offer__text">
+                                        На основании принципиальной схемы технологических процессов поставляем необходимое технологическое оборудование согласованных с заказчиком производителей, указанных в разделе «ПАРТНЕРЫ»
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <h3 class="offer__matter">Монтаж технологического оборудования</h3>
+                                <div class="offer__background">
+                                    <div class="offer__text">
+                                        Проведем монтаж технологического оборудования согласно принципиальной схемы технологических процессов в согласованные с заказчиком сроки 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <h3 class="offer__matter">Пуско-наладка и ввод в эксплуатацию технологического оборудования
+                                </h3>
+                                <div class="offer__background">
+                                    <div class="offer__text">
+                                        На этапе пуско-наладки проверим работоспособность технологического оборудования, отработаем систему визуализации технологических процессов, обучим заводских операторов управлять технологическим процессом
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <h3 class="offer__matter">Техническая поддержка после ввода в эксплуатацию технологического оборудования,
+                                    сервисное обслуживание
+                                    </h3>
+                                <div class="offer__background">
+                                    <div class="offer__text">
+                                        В течении гарантийного срока на работоспособность технологического оборудования окажем консультационную поддержку оператору технологических процессов по телефону, а в случае каких-либо сбоев в работе оборудования обеспечим выезд специалиста для устранения неполадок.
+По согласованию с заказчиком заключим договор на сервисное обслуживание на согласованный срок после окончания действия гарантии на работоспособность технологического оборудования.
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <h3 class="offer__matter">Проектирование технологических цехов</h3>
+                                <div class="offer__background">
+                                    <div class="offer__text">
+                                        После согласования с заказчиком подготавливаем принципиальную 
+                                        схему технологических процессов, технологическую планировку 
+                                        цеха с указанием мест размещения основного технологического оборудования, 
+                                        описание автоматизированной системы, используемой в производственном процессе 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <!-- /.swiper-container -->
                 </div>
             </div>
-        </section>
-    </body>
+        </div>
+    </section>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
 </html>
