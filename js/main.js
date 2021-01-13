@@ -37,15 +37,14 @@ menuButton.addEventListener('click', () => {
 });
 
 headerClose.addEventListener('click', () => {
-    headerMenu.style.opacity = "1";
-        let x = 0;
-        const timer = setInterval(() => {
-          x -= 0.1;
-          headerMenu.style.opacity = `${x}`;
-          if (headerMenu.style.opacity === "-0.1") {
+    let x = 1;
+    const timer = setInterval(() => {
+        x -= 0.1;
+        headerMenu.style.opacity = `${x}`;
+        if (headerMenu.style.opacity === "-0.1") {
             clearInterval(timer);
-          }
-        }, 20);
+        }
+    }, 20);
     headerMenu.classList.remove('header-menu--visible');
     headerClose.classList.remove('header-close--visible');
 });
