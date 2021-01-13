@@ -197,8 +197,8 @@ img {
 }
 
 .swiper-container {
-  width: 1320px;
-  min-height: 425px;
+  width: 1150px;
+  min-height: 530px;
 }
 
 .offer-wrapper {
@@ -211,7 +211,6 @@ img {
   font-style: normal;
   font-weight: normal;
   font-size: 60px;
-  line-height: 73px;
   text-align: center;
   letter-spacing: 0.2em;
 }
@@ -222,7 +221,6 @@ img {
   font-style: normal;
   font-weight: normal;
   font-size: 35px;
-  line-height: 43px;
   text-align: center;
   letter-spacing: 0.1em;
 }
@@ -604,6 +602,16 @@ template {
     width: 1000px;
     font-size: 55px;
   }
+  .swiper-container {
+    width: 1000px;
+    min-height: 555px;
+  }
+  .offer__title {
+    font-size: 55px;
+  }
+  .offer__matter {
+    font-size: 33px;
+  }
 }
 
 @media (max-width: 1090px) {
@@ -624,9 +632,27 @@ template {
     width: 80px;
     min-height: 50px;
   }
+  .main-wrapper {
+    margin-bottom: 80px;
+  }
   .main__title {
     width: 790px;
     font-size: 42px;
+  }
+  .swiper-container {
+    width: 900px;
+    min-height: 485px;
+  }
+  .offer__title {
+    font-size: 50px;
+    margin-bottom: 35px;
+  }
+  .offer__matter {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .offer__text {
+    font-size: 24px;
   }
 }
 
@@ -659,6 +685,21 @@ template {
     font-size: 35px;
     min-height: 200px;
   }
+  .swiper-container {
+    width: 830px;
+    min-height: 380px;
+  }
+  .offer__title {
+    font-size: 40px;
+    margin-bottom: 25px;
+  }
+  .offer__matter {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .offer__text {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 850px) {
@@ -677,6 +718,17 @@ template {
     width: 600px;
     font-size: 33px;
     min-height: 200px;
+  }
+  .swiper-container {
+    width: 748px;
+    min-height: 460px;
+  }
+  .offer__title {
+    margin-bottom: 20px;
+  }
+  .offer__matter {
+    font-size: 25px;
+    margin-bottom: 8px;
   }
 }
 
@@ -735,10 +787,28 @@ template {
     height: 2px;
     background-color: #FFBB00;
   }
+  .main-wrapper {
+    margin-bottom: 60px;
+  }
   .main__title {
     width: 550px;
     font-size: 30px;
     min-height: 200px;
+  }
+  .swiper-container {
+    width: 520px;
+    min-height: 460px;
+  }
+  .offer__title {
+    font-size: 28px;
+    margin-bottom: 18px;
+  }
+  .offer__matter {
+    font-size: 20px;
+  }
+  .offer__text {
+    padding: 5px 10px 10px 10px;
+    font-size: 15px;
   }
 }
 
@@ -751,6 +821,19 @@ template {
     font-size: 24px;
     min-height: 200px;
   }
+  .swiper-container {
+    width: 400px;
+    min-height: 560px;
+  }
+  .offer__title {
+    margin-bottom: 15px;
+  }
+  .offer__matter {
+    font-size: 16px;
+  }
+  .offer__text {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 450px) {
@@ -758,6 +841,21 @@ template {
     width: 340px;
     font-size: 18px;
     min-height: 200px;
+  }
+  .swiper-container {
+    width: 300px;
+    min-height: 565px;
+  }
+  .offer__title {
+    margin-bottom: 12px;
+  }
+  .offer__matter {
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+  .offer__text {
+    font-size: 12px;
+    padding: 0;
   }
 }
 
