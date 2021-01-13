@@ -9,7 +9,7 @@ let mySwiper = new Swiper('.swiper-container', {
       el: '.swiper-pagination',
     },
     autoplay: {
-        delay: 3000,
+        delay: 3500,
         disableOnInteraction: false
     },
     keyboard: {
@@ -37,8 +37,6 @@ menuButton.addEventListener('click', () => {
 });
 
 headerClose.addEventListener('click', () => {
-    headerMenu.classList.remove('header-menu--visible');
-    headerClose.classList.remove('header-close--visible');
     headerMenu.style.opacity = "1";
         let x = 0;
         const timer = setInterval(() => {
@@ -48,6 +46,8 @@ headerClose.addEventListener('click', () => {
             clearInterval(timer);
           }
         }, 20);
+    headerMenu.classList.remove('header-menu--visible');
+    headerClose.classList.remove('header-close--visible');
 });
 
 const anchors = document.querySelectorAll('a[href*="#"]')
