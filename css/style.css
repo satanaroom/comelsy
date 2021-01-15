@@ -210,7 +210,7 @@ img {
 
 .offer-slider {
   width: 1150px;
-  min-height: 530px;
+  height: 600px;
 }
 
 .offer-wrapper {
@@ -248,7 +248,6 @@ img {
   font-style: normal;
   font-weight: 600;
   font-size: 28px;
-  line-height: 34px;
   text-align: center;
 }
 
@@ -645,7 +644,7 @@ template {
   }
   .offer-slider {
     width: 1000px;
-    min-height: 555px;
+    height: 620px;
   }
   .offer__title {
     font-size: 55px;
@@ -690,7 +689,7 @@ template {
   }
   .offer-slider {
     width: 900px;
-    min-height: 485px;
+    height: 500px;
   }
   .offer__title {
     font-size: 50px;
@@ -746,7 +745,7 @@ template {
   }
   .offer-slider {
     width: 830px;
-    min-height: 380px;
+    height: 330px;
   }
   .offer__title {
     font-size: 40px;
@@ -788,7 +787,7 @@ template {
   }
   .offer-slider {
     width: 748px;
-    min-height: 460px;
+    height: 405px;
   }
   .offer__title {
     margin-bottom: 20px;
@@ -926,7 +925,7 @@ template {
   }
   .offer-slider {
     width: 520px;
-    min-height: 460px;
+    height: 350px;
   }
   .offer__title {
     font-size: 28px;
@@ -971,7 +970,7 @@ template {
   }
   .offer-slider {
     width: 400px;
-    min-height: 560px;
+    height: 410px;
   }
   .offer__title {
     margin-bottom: 15px;
@@ -1000,7 +999,7 @@ template {
   }
   .offer-slider {
     width: 300px;
-    min-height: 565px;
+    height: 370px;
   }
   .offer__title {
     margin-bottom: 12px;
@@ -1011,7 +1010,7 @@ template {
   }
   .offer__text {
     font-size: 12px;
-    padding: 0;
+    padding: 5px 5px 5px 5px;
   }
   .galary-slider {
     width: 300px;
