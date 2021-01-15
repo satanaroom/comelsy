@@ -139,7 +139,7 @@ img {
 .main-wrapper {
   width: 100%;
   height: 631px;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
   position: relative;
   background-image: url(../img/main.png);
   background-repeat: no-repeat;
@@ -208,13 +208,13 @@ img {
   transition: .3s;
 }
 
-.swiper-container {
+.offer-slider {
   width: 1150px;
   min-height: 530px;
 }
 
 .offer-wrapper {
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 .offer__title {
@@ -255,6 +255,35 @@ img {
 .swiper-pagination-bullet {
   background: #000000;
   margin: 0;
+}
+
+.galary-slider {
+  width: 1150px;
+  height: 530px;
+}
+
+.galary {
+  margin-bottom: 60px;
+}
+
+.galary-photo {
+  width: 1150px;
+  height: 530px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.galary-pagination {
+  color: #FFBB00;
+  font-weight: bold;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  color: #FFBB00;
+  width: 27px;
+  height: 44px;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -614,7 +643,7 @@ template {
     width: 1000px;
     font-size: 55px;
   }
-  .swiper-container {
+  .offer-slider {
     width: 1000px;
     min-height: 555px;
   }
@@ -623,6 +652,14 @@ template {
   }
   .offer__matter {
     font-size: 33px;
+  }
+  .galary-slider {
+    width: 1000px;
+    height: 555px;
+  }
+  .galary-photo {
+    width: 1000px;
+    height: 555px;
   }
 }
 
@@ -651,7 +688,7 @@ template {
     width: 790px;
     font-size: 42px;
   }
-  .swiper-container {
+  .offer-slider {
     width: 900px;
     min-height: 485px;
   }
@@ -665,6 +702,14 @@ template {
   }
   .offer__text {
     font-size: 24px;
+  }
+  .galary-slider {
+    width: 900px;
+    height: 550px;
+  }
+  .galary-photo {
+    width: 900px;
+    height: 550px;
   }
 }
 
@@ -699,7 +744,7 @@ template {
     font-size: 35px;
     min-height: 200px;
   }
-  .swiper-container {
+  .offer-slider {
     width: 830px;
     min-height: 380px;
   }
@@ -713,6 +758,14 @@ template {
   }
   .offer__text {
     font-size: 18px;
+  }
+  .galary-slider {
+    width: 830px;
+    height: 530px;
+  }
+  .galary-photo {
+    width: 830px;
+    height: 530px;
   }
 }
 
@@ -733,7 +786,7 @@ template {
     font-size: 33px;
     min-height: 200px;
   }
-  .swiper-container {
+  .offer-slider {
     width: 748px;
     min-height: 460px;
   }
@@ -743,6 +796,14 @@ template {
   .offer__matter {
     font-size: 25px;
     margin-bottom: 8px;
+  }
+  .galary-slider {
+    width: 748px;
+    height: 520px;
+  }
+  .galary-photo {
+    width: 748px;
+    height: 520px;
   }
 }
 
@@ -863,7 +924,7 @@ template {
     font-size: 30px;
     min-height: 200px;
   }
-  .swiper-container {
+  .offer-slider {
     width: 520px;
     min-height: 460px;
   }
@@ -877,6 +938,14 @@ template {
   .offer__text {
     padding: 5px 10px 10px 10px;
     font-size: 15px;
+  }
+  .galary-slider {
+    width: 520px;
+    height: 520px;
+  }
+  .galary-photo {
+    width: 520px;
+    height: 520px;
   }
 }
 
@@ -900,7 +969,7 @@ template {
     font-size: 24px;
     min-height: 200px;
   }
-  .swiper-container {
+  .offer-slider {
     width: 400px;
     min-height: 560px;
   }
@@ -913,6 +982,14 @@ template {
   .offer__text {
     font-size: 14px;
   }
+  .galary-slider {
+    width: 400px;
+    height: 400px;
+  }
+  .galary-photo {
+    width: 400px;
+    height: 400px;
+  }
 }
 
 @media (max-width: 450px) {
@@ -921,7 +998,7 @@ template {
     font-size: 18px;
     min-height: 200px;
   }
-  .swiper-container {
+  .offer-slider {
     width: 300px;
     min-height: 565px;
   }
@@ -935,6 +1012,14 @@ template {
   .offer__text {
     font-size: 12px;
     padding: 0;
+  }
+  .galary-slider {
+    width: 300px;
+    height: 300px;
+  }
+  .galary-photo {
+    width: 300px;
+    height: 300px;
   }
 }
 

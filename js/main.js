@@ -1,6 +1,6 @@
 'use strict';
 
-let mySwiper = new Swiper('.swiper-container', {
+let offerSwiper = new Swiper('.offer-slider', {
     // Optional parameters
     loop: true,
   
@@ -16,6 +16,25 @@ let mySwiper = new Swiper('.swiper-container', {
         enabled: true,
         onlyInViewport: false,
     },
+});
+
+let galarySwiper = new Swiper('.galary-slider', {
+  // Optional parameters
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'fraction',
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  keyboard: {
+      enabled: true,
+      onlyInViewport: false,
+  },
 });
 
 const menuButton = document.querySelector('.menu-button'),
