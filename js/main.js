@@ -82,3 +82,17 @@ for (const anchor of anchors) {
     });
   });
 }
+
+// Обработка форм
+$(".form").each(function () {
+  $(this).validate({
+    errorClass: "invalid",
+    errorElement: "em",
+    messages: {
+      email: {
+        required: "Нам необходим Ваш email, чтобы связаться с Вами!",
+        email: "Ваш email должен быть в формате: name@domain.com",
+      },
+    },
+  });
+});

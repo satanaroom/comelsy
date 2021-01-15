@@ -10,7 +10,7 @@
         &__title
             width: 1020px
             font-size: 55px
-    .offer-slider 
+    .offer-slider
         width: 1000px
         height: 620px
     .offer
@@ -37,8 +37,12 @@
             text-align: center
         &__title
             margin-bottom: 14px
-        .subscribe
-            min-width: 447px
+    .subscribe
+        min-width: 447px
+    .thanksyou
+        &-wrapper
+            margin: auto
+            width: 1000px
 @media (max-width: 1090px)
     .container
         width: 93%
@@ -60,7 +64,7 @@
             width: 790px
             font-size: 42px
             line-height: 1.5
-    .offer-slider 
+    .offer-slider
         width: 900px
         height: 500px
     .offer
@@ -79,6 +83,10 @@
         &-photo
             width: 900px
             height: 550px
+    .thanksyou
+        &-wrapper
+            margin: auto
+            width: 800px
 @media (max-width: 992px)
     .container
         width: 98%
@@ -103,7 +111,7 @@
             width: 670px
             font-size: 35px
             min-height: 200px
-    .offer-slider 
+    .offer-slider
         width: 830px
         height: 330px
     .offer
@@ -122,6 +130,10 @@
         &-photo
             width: 830px
             height: 530px
+    .thanksyou
+        &-wrapper
+            margin: auto
+            width: 600px
 @media (max-width: 850px)
     .header
         &-menu
@@ -137,7 +149,7 @@
             width: 620px
             font-size: 33px
             min-height: 200px
-    .offer-slider 
+    .offer-slider
         width: 748px
         height: 405px
     .offer
@@ -238,7 +250,7 @@
             width: 570px
             font-size: 30px
             min-height: 200px
-    .offer-slider 
+    .offer-slider
         width: 520px
         height: 350px
     .offer
@@ -257,10 +269,24 @@
         &-photo
             width: 520px
             height: 520px
+    .newsletter
+        padding: 40px 0 40px 0
+        &-text
+            font-size: 20px
+        &__title
+            font-size: 30px
+            margin-bottom: 8px
+    .thanksyou
+        &-wrapper
+            margin: auto
+            width: 500px
 @media (max-width: 750px)
     .header
         &-menu
             right: 28%
+    .thanksyou
+        &-wrapper
+            width: 400px
 // @media (max-width: 700px)
 @media (max-width: 576px)
     .header
@@ -277,7 +303,7 @@
             width: 440px
             font-size: 23px
             min-height: 170px
-    .offer-slider 
+    .offer-slider
         width: 400px
         height: 410px
     .offer
@@ -294,13 +320,63 @@
         &-photo
             width: 400px
             height: 400px
+    .newsletter
+        min-width: 320px
+        &-text
+            margin-bottom: 0
+        &__text
+            margin-bottom: 36px
+            text-align: center
+            font-style: normal
+            font-weight: normal
+            font-size: 16px
+            text-align: center
+            width: 300px
+        &__title
+            margin-bottom: 14px
+            font-size: 26px
+        &__subscribe
+            display: flex
+            flex-direction: column
+            flex-wrap: wrap
+            max-width: 280px
+            height: 150px
+    .subscribe
+        min-width: 280px
+        &__input
+            position: absolute
+            padding: 0 10px 0 50px
+            width: 100%
+            height: 48px
+        &__button
+            position: absolute
+            min-width: 280px
+            width: 100%
+            height: 48px
+            top: 58px
+            left: 0
+            border-radius: 8px
+            background-color: #ffffff
+            color: $primary
+        &__image
+            position: absolute
+            top: 16px
+    .thanksyou
+        &-wrapper
+            display: flex
+            min-height: 260px
+            text-align: center
+            justify-content: center
+            flex-wrap: wrap
+            margin: auto
+            width: 320px
 @media (max-width: 450px)
     .main
         &__title
             width: 340px
             font-size: 17px
             min-height: 135px
-    .offer-slider 
+    .offer-slider
         width: 300px
         height: 375px
     .offer
@@ -323,3 +399,17 @@
             width: 300px
             font-size: 15px
             min-height: 120px
+    .newsletter
+        padding: 20px 0 20px 0
+        &__text
+            margin-bottom: 25px
+    .subscribe
+        height: 120px
+    .thanksyou
+        &__title
+            font-size: 24px
+        &__text
+            font-size: 16px
+        &-wrapper
+            min-height: 260px
+            width: 290px  
