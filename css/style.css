@@ -1504,6 +1504,9 @@ template {
     position: absolute;
     top: 16px;
   }
+  em {
+    top: 110px;
+  }
   .thanksyou-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
