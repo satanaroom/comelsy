@@ -440,6 +440,132 @@ em {
   margin: 100px auto 150px auto;
 }
 
+.jobs-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1140px;
+  margin: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 140px;
+}
+
+.jobs__left {
+  width: 377px;
+}
+
+.jobs__title {
+  margin: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+  width: 377px;
+  color: #000000;
+  margin-bottom: 24px;
+}
+
+.jobs__city {
+  display: block;
+  margin: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+  width: 377px;
+  color: #000000;
+}
+
+.jobs__text {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 24px;
+}
+
+.jobs__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 475px;
+}
+
+.jobs__card-1, .jobs__card-2 {
+  width: 322px;
+  height: 475px;
+}
+
+.jobs__image {
+  width: 312px;
+  height: 100%;
+  border-radius: 8px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+
+.jobs-slider {
+  width: 662px;
+  height: 475px;
+}
+
+.jobs-slider-button--next {
+  padding: 18px;
+  border: 3px solid #FFBB00;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.jobs-slider-button--prev {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  padding: 18px;
+  border: 3px solid #FFBB00;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.swiper-button-disabled {
+  opacity: 0.6;
+}
+
+.slider-jobs {
+  width: 662px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.slider-buttons {
+  width: 132px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */

@@ -1,6 +1,6 @@
 'use strict';
 
-let offerSwiper = new Swiper('.offer-slider', {
+let offerSlider = new Swiper('.offer-slider', {
     // Optional parameters
     loop: true,
   
@@ -18,7 +18,7 @@ let offerSwiper = new Swiper('.offer-slider', {
     },
 });
 
-let galarySwiper = new Swiper('.galary-slider', {
+let galarySlider = new Swiper('.galary-slider', {
   // Optional parameters
   loop: true,
 
@@ -34,6 +34,14 @@ let galarySwiper = new Swiper('.galary-slider', {
   keyboard: {
       enabled: true,
       onlyInViewport: false,
+  },
+});
+
+var jobsSlider = new Swiper(".jobs-slider", {
+  // Navigation arrows
+  navigation: {
+    nextEl: ".slider-button--next",
+    prevEl: ".slider-button--prev",
   },
 });
 

@@ -1,0 +1,80 @@
+.jobs
+    &-wrapper
+        display: flex
+        width: 1140px
+        margin: auto
+        justify-content: space-between
+        margin-bottom: 140px
+    &__left
+        width: 377px
+    &__title
+        margin: 0
+        font-style: normal
+        font-weight: 500
+        font-size: 30px
+        text-align: center
+        width: 377px
+        color: $black
+        margin-bottom: 24px
+    &__city
+        display: block
+        margin: 0
+        font-style: normal
+        font-weight: 500
+        font-size: 30px
+        text-align: center
+        width: 377px
+        color: $black
+    &__text
+        margin: 0
+        font-style: normal
+        font-weight: normal
+        font-size: 20px
+        text-align: center
+        color: $black
+        margin-bottom: 24px
+    &__cards
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        width: 100%
+        height: 475px
+    &__card-1,
+    &__card-2
+        width: 322px
+        height: 475px
+    &__image
+        width: 312px
+        height: 100%
+        border-radius: 8px
+        object-fit: cover
+        overflow: hidden
+    &-slider
+        width: 662px
+        height: 475px
+        &-button
+            &--next,
+                padding: 18px
+                border: 3px solid $primary
+                border-radius: 50px
+                cursor: pointer
+            &--prev
+                transform: rotateY(180deg)
+                padding: 18px
+                border: 3px solid $primary
+                border-radius: 50px
+                cursor: pointer
+.swiper
+    &-button
+        &-disabled
+            opacity: 0.6
+.slider
+    &-jobs
+        width: 662px
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+    &-buttons
+        width: 132px
+        display: flex
+        align-items: center
