@@ -40,8 +40,8 @@ let galarySlider = new Swiper('.galary-slider', {
 var jobsSlider = new Swiper(".jobs-slider", {
   // Navigation arrows
   navigation: {
-    nextEl: ".slider-button--next",
-    prevEl: ".slider-button--prev",
+    nextEl: ".jobs-slider-button--next",
+    prevEl: ".jobs-slider-button--prev",
   },
 });
 

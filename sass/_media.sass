@@ -43,6 +43,40 @@
         &-wrapper
             margin: auto
             width: 1000px
+    .jobs
+        &-wrapper
+            width: 662px
+            flex-direction: column
+        &__card-1,
+        &__card-2
+            width: 322px
+        &__left
+            margin: auto
+            display: flex
+            flex-direction: column
+            align-items: center
+        &-left
+            &__top
+                width: 100%
+        &__title
+            width: 100%
+            font-size: 26px
+        &__text
+            width: 100%
+            font-size: 18px
+        &__city
+            width: 100%
+            font-size: 26px
+        &-left, &__city
+            width: 100%
+        &-slider
+            &__right
+                height: 400px
+            &__left
+                width: 662px
+    .slider
+        &-buttons
+            margin-bottom: 36px
 @media (max-width: 1090px)
     .container
         width: 93%
@@ -280,6 +314,13 @@
         &-wrapper
             margin: auto
             width: 500px
+    .jobs
+        &__title
+            font-size: 20px
+        &__text
+            font-size: 16px
+        &__city
+            font-size: 20px
 @media (max-width: 750px)
     .header
         &-menu
@@ -287,7 +328,35 @@
     .thanksyou
         &-wrapper
             width: 400px
-// @media (max-width: 700px)
+@media (max-width: 700px)
+    .jobs
+        margin: auto
+        margin-bottom: 60px
+        &-wrapper
+            width: 330px
+        &-left
+            width: 330px
+            &__top
+                width: 100%
+        &__city
+            margin-bottom: 18px
+        &-slider
+            &__right
+                height: 800px
+                width: 330px
+            &__left
+                width: 330px
+        &__image
+            height: 380px
+        &__cards
+            flex-direction: column
+            width: 330px
+        &__card-1,
+        &__card-2
+            width: 330px
+    .slider
+        &-jobs
+            width: 330px
 @media (max-width: 576px)
     .header
         &-text
@@ -413,3 +482,37 @@
         &-wrapper
             min-height: 260px
             width: 290px  
+    .jobs
+        &-wrapper
+            width: 300px
+        &-left
+            width: 300px
+            &__top
+                width: 100%
+        &__city
+            margin-bottom: 10px
+        &-slider
+            &__right
+                height: 580px
+                width: 300px
+            &__left
+                width: 300px
+        &__image
+            height: 280px
+        &__cards
+            width: 300px
+        &__card-1,
+        &__card-2
+            width: 300px
+        &__title
+            font-size: 22px
+        &__text
+            font-size: 16px
+            margin-bottom: 15px
+        &__city
+            font-size: 22px
+    .slider
+        &-jobs
+            width: 300px
+        &-buttons
+            margin-bottom: 15px
