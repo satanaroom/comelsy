@@ -534,11 +534,11 @@ em {
 
 .jobs-slider__right {
   width: 662px;
-  height: 475px;
+  height: 500px;
 }
 
 .jobs-slider__left {
-  width: 377px;
+  width: 420px;
 }
 
 .jobs-slider-button--next {
@@ -1016,7 +1016,7 @@ template {
   }
   .jobs__title {
     width: 100%;
-    font-size: 26px;
+    font-size: 22px;
   }
   .jobs__text {
     width: 100%;
@@ -1351,7 +1351,7 @@ template {
     font-size: 20px;
   }
   .jobs__text {
-    font-size: 16px;
+    font-size: 15px;
   }
   .jobs__city {
     font-size: 20px;
@@ -1603,14 +1603,14 @@ template {
     width: 300px;
   }
   .jobs__title {
-    font-size: 22px;
+    font-size: 20px;
   }
   .jobs__text {
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 15px;
   }
   .jobs__city {
-    font-size: 22px;
+    font-size: 20px;
   }
   .slider-jobs {
     width: 300px;
