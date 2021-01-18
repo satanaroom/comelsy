@@ -30,11 +30,7 @@ let galarySlider = new Swiper('.galary-slider', {
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
-  },
-  keyboard: {
-      enabled: true,
-      onlyInViewport: false,
-  },
+  }
 });
 
 var jobsSlider = new Swiper(".jobs-slider", {
@@ -43,6 +39,7 @@ var jobsSlider = new Swiper(".jobs-slider", {
     nextEl: ".jobs-slider-button--next",
     prevEl: ".jobs-slider-button--prev",
   },
+  allowTouchMove: false
 });
 
 const menuButton = document.querySelector('.menu-button'),
