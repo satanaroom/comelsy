@@ -34,7 +34,7 @@ try {
   $mail->setFrom('satanaroomtest@gmail.com', 'Email Test'); // Адрес самой почты и имя отправителя
 
   // Получатель письма
-  $mail->addAddress('oficialsatana@mail.ru');
+  $mail->addAddress('info.comelsy@gmail.com');
 
   // Отправка сообщения
   $mail->isHTML(true);

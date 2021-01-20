@@ -896,7 +896,7 @@ em {
       -ms-flex-align: center;
           align-items: center;
   width: 1150px;
-  height: 450px;
+  height: 530px;
   margin: auto;
   margin-bottom: 60px;
 }
@@ -1803,6 +1803,10 @@ template {
     margin-bottom: 10px;
     min-height: 21px;
     border: none;
+  }
+  .header-menu__link-get:hover {
+    background: none;
+    color: #000000;
   }
   .header-menu--visible {
     display: -webkit-box;
