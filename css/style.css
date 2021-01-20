@@ -472,6 +472,7 @@ em {
   position: absolute;
   border-radius: 10px;
   padding: 10px;
+  width: 1000px;
   top: 50%;
   left: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
@@ -556,7 +557,6 @@ em {
   font-size: 35px;
   text-align: center;
   line-height: 1.2;
-  width: 1000px;
 }
 
 .line {
@@ -1578,6 +1578,20 @@ template {
   .map {
     width: 290px;
   }
+  .history-info__3, .history-info__4 {
+    width: 800px;
+  }
+  .history-image__3 {
+    width: 380px;
+    height: 380px;
+  }
+  .history-title__3 {
+    width: 380px;
+    font-size: 20px;
+  }
+  .history-title__4 {
+    font-size: 30px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -1720,6 +1734,24 @@ template {
   .map {
     width: 225px;
     height: 200px;
+  }
+  .history-info__1, .history-info__2, .history-info__3, .history-info__4 {
+    width: 700px;
+  }
+  .history-image__3 {
+    width: 340px;
+    height: 300px;
+  }
+  .history-title__1, .history-title__2 {
+    font-size: 24px;
+  }
+  .history-title__3 {
+    width: 340px;
+    height: 200px;
+    font-size: 18px;
+  }
+  .history-title__4 {
+    font-size: 28px;
   }
 }
 
@@ -1886,6 +1918,9 @@ template {
   .jobs__city {
     font-size: 20px;
   }
+  .history-back__1, .history-back__2, .history-back__3, .history-back__4 {
+    height: 400px;
+  }
 }
 
 @media (max-width: 750px) {
@@ -1918,6 +1953,36 @@ template {
   .map {
     width: 185px;
     height: 185px;
+  }
+  .history-back__3 {
+    height: 600px;
+  }
+  .history-info__1, .history-info__2 {
+    width: 500px;
+  }
+  .history-info__3 {
+    width: 350px;
+    height: 570px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .history-info__4 {
+    width: 500px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .history-image__3 {
+    width: 350px;
+    height: 350px;
+  }
+  .history-title__3 {
+    width: 350px;
+    height: 200px;
+  }
+  .history-title__4 {
+    font-size: 26px;
   }
 }
 
@@ -2107,6 +2172,12 @@ template {
     width: 290px;
     height: 290px;
   }
+  .history-info__1, .history-info__2, .history-info__3, .history-info__4 {
+    width: 400px;
+  }
+  .history-title__1, .history-title__2 {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 450px) {
@@ -2147,6 +2218,40 @@ template {
   .partners__image {
     width: 41px;
     height: 41px;
+  }
+  .history-back__1, .history-back__2, .history-back__4 {
+    height: 350px;
+  }
+  .history-back__3 {
+    height: 520px;
+  }
+  .history-info__1, .history-info__2 {
+    width: 300px;
+  }
+  .history-info__3 {
+    width: 300px;
+    height: 500px;
+  }
+  .history-info__4 {
+    width: 300px;
+  }
+  .history-image__1 {
+    width: 300px;
+  }
+  .history-image__3 {
+    width: 300px;
+    height: 300px;
+  }
+  .history-title__1, .history-title__2 {
+    font-size: 16px;
+  }
+  .history-title__3 {
+    width: 300px;
+    height: 160px;
+    font-size: 15px;
+  }
+  .history-title__4 {
+    font-size: 18px;
   }
 }
 
