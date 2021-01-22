@@ -12,11 +12,7 @@ window.addEventListener('DOMContentLoaded', () => {
     autoplay: {
       delay: 3500,
       disableOnInteraction: false
-    },
-    keyboard: {
-      enabled: true,
-      onlyInViewport: false,
-    },
+    }
   });
 
   let galarySlider = new Swiper('.galary-slider', {
@@ -27,6 +23,10 @@ window.addEventListener('DOMContentLoaded', () => {
     pagination: {
       el: '.swiper-pagination',
       type: 'fraction',
+    },
+    keyboard: {
+      enabled: true,
+      onlyInViewport: false,
     },
     navigation: {
       nextEl: '.swiper-button-next',
@@ -74,20 +74,32 @@ window.addEventListener('DOMContentLoaded', () => {
     headerClose.classList.remove('header-close--visible');
   });
 
-  const anchors = document.querySelectorAll('a[href*="#"]')
+  const anchors = document.querySelectorAll('a[href*="#"]');
 
-  for (const anchor of anchors) {
-    anchor.addEventListener('click', (e) => {
-      e.preventDefault();
+  $("body").on('click', '[href*="#"]', function (e) {
+    var fixedOffset = 80;
+    $('html,body').stop().animate({
+      scrollTop: $(this.hash).offset().top - fixedOffset
+    }, 1000);
+    e.preventDefault();
+  });
 
-      const blockID = anchor.getAttribute('href').substr(1)
-
-      document.getElementById(blockID).scrollIntoView({
-        behavior: 'smooth',
-        block: 'start'
-      });
+  $(document).ready(function () {
+    var button = $('#button-up');
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 300) {
+        button.fadeIn();
+      } else {
+        button.fadeOut();
+      }
     });
-  }
+    button.on('click', function () {
+      $('body, html').animate({
+        scrollTop: 0
+      }, 800);
+      return false;
+    });
+  });
 
   // Обработка форм
   $(".form").each(function () {
