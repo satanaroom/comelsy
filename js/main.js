@@ -8,10 +8,11 @@ window.addEventListener('DOMContentLoaded', () => {
     // If we need pagination
     pagination: {
       el: '.swiper-pagination',
+      type: 'fraction',
     },
-    autoplay: {
-      delay: 3500,
-      disableOnInteraction: false
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
     }
   });
 
@@ -29,8 +30,8 @@ window.addEventListener('DOMContentLoaded', () => {
       onlyInViewport: false,
     },
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: '.swiper-button--next',
+      prevEl: '.swiper-button--prev',
     }
   });
 
